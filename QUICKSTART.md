@@ -2,6 +2,18 @@
 
 Get started with lowcost orchestration in 5 minutes.
 
+## Installation
+
+Install with one command:
+
+```bash
+# Project-level
+npx skills add spacatty/lowcost-skill
+
+# Or global (available in all projects)
+npx skills add -g spacatty/lowcost-skill
+```
+
 ## Prerequisites
 
 1. **T3 Code** installed and running

@@ -1,16 +1,21 @@
 {
-  "name": "skill-lowcost",
+  "name": "@spacatty/lowcost-skill",
   "version": "1.0.0",
-  "description": "Lowcost multi-model orchestration skill for T3 Code",
-  "type": "skill",
-  "main": ".claude/skills/lowcost.md",
+  "description": "Lowcost multi-model orchestration skill for T3 Code - install with npx skills add",
+  "type": "module",
+  "main": "lowcost.md",
   "repository": {
     "type": "git",
     "url": "https://github.com/spacatty/lowcost-skill.git"
   },
   "keywords": [
     "claude",
+    "claude-code",
     "t3-code",
+    "codex",
+    "cursor",
+    "ai-agent",
+    "agent-skill",
     "orchestration",
     "multi-model",
     "lowcost",
@@ -20,6 +25,13 @@
   ],
   "author": "A K",
   "license": "MIT",
+  "files": [
+    "lowcost.md",
+    "docs/**",
+    "examples/**",
+    "README.md",
+    "LICENSE"
+  ],
   "documentation": {
     "quickstart": "QUICKSTART.md",
     "main": "CLAUDE.md",
@@ -29,7 +41,7 @@
   },
   "skill": {
     "name": "lowcost",
-    "path": ".claude/skills/lowcost.md",
+    "path": "lowcost.md",
     "trigger": [
       "/lowcost",
       "lowcost workflow",

@@ -38,30 +38,39 @@ This skill enables you to delegate coding work to cost-efficient models while ke
 
 ## Installation
 
-### Option 1: Clone Repository
+### Option 1: Using npx (Recommended)
+
+Install for current project:
+```bash
+npx skills add spacatty/lowcost-skill
+```
+
+Install globally (available in all projects):
+```bash
+npx skills add -g spacatty/lowcost-skill
+```
+
+### Option 2: Clone Repository
 
 ```bash
 git clone https://github.com/spacatty/lowcost-skill.git
 cd skill-lowcost
 ```
 
-The skill file is in `.claude/skills/lowcost.md`.
+The skill file is `lowcost.md` in the repository root.
 
-### Option 2: Copy Skill File Only
+### Option 3: Manual Copy
 
-Download `.claude/skills/lowcost.md` and place it in your project:
+Download and place the skill file manually:
 
 ```bash
+# Project-level
 mkdir -p .claude/skills
-curl -o .claude/skills/lowcost.md https://raw.githubusercontent.com/spacatty/lowcost-skill/main/.claude/skills/lowcost.md
-```
+curl -o .claude/skills/lowcost.md https://raw.githubusercontent.com/spacatty/lowcost-skill/main/lowcost.md
 
-Or copy it into your user-level skills directory:
-
-```bash
-# User-level (available in all T3 projects)
+# User-level (global)
 mkdir -p ~/.claude/skills
-cp lowcost.md ~/.claude/skills/
+curl -o ~/.claude/skills/lowcost.md https://raw.githubusercontent.com/spacatty/lowcost-skill/main/lowcost.md
 ```
 
 ### Prerequisites
