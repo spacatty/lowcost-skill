@@ -1,0 +1,69 @@
+{
+  "name": "skill-lowcost",
+  "version": "1.0.0",
+  "description": "Cost-aware multi-model orchestration skill for T3 Code",
+  "type": "skill",
+  "main": ".claude/skills/cost-aware.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spacatty/lowcost-skill.git"
+  },
+  "keywords": [
+    "claude",
+    "t3-code",
+    "orchestration",
+    "multi-model",
+    "cost-aware",
+    "deepseek",
+    "delegation",
+    "skill"
+  ],
+  "author": "A K",
+  "license": "MIT",
+  "documentation": {
+    "quickstart": "QUICKSTART.md",
+    "main": "CLAUDE.md",
+    "examples": "examples/workflows.md",
+    "troubleshooting": "docs/troubleshooting.md",
+    "best-practices": "docs/best-practices.md"
+  },
+  "skill": {
+    "name": "cost-aware",
+    "path": ".claude/skills/cost-aware.md",
+    "trigger": [
+      "/cost-aware",
+      "cost-aware workflow",
+      "multi-model workflow",
+      "delegated implementation"
+    ],
+    "requirements": {
+      "advisor": "claude-opus-5-5",
+      "providers": {
+        "primary": "opencode",
+        "fallback": "claudeAgent"
+      },
+      "models": {
+        "worker": "openrouter/deepseek/deepseek-v4.1-flash-1017",
+        "reviewer": "claude-haiku-5-5",
+        "fallback": "claude-haiku-5-5"
+      }
+    }
+  },
+  "platform": {
+    "primary": "windows",
+    "shell": "powershell",
+    "compatibility": {
+      "windows": "native",
+      "macos": "compatible",
+      "linux": "compatible"
+    }
+  },
+  "features": [
+    "Cost-efficient delegation (80%+ savings)",
+    "Windows PowerShell compatibility",
+    "Context-aware brief templates",
+    "Escalation strategies",
+    "Parallel work isolation",
+    "Integration verification"
+  ]
+}
