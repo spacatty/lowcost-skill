@@ -1,9 +1,9 @@
 {
   "name": "skill-lowcost",
   "version": "1.0.0",
-  "description": "Cost-aware multi-model orchestration skill for T3 Code",
+  "description": "Lowcost multi-model orchestration skill for T3 Code",
   "type": "skill",
-  "main": ".claude/skills/cost-aware.md",
+  "main": ".claude/skills/lowcost.md",
   "repository": {
     "type": "git",
     "url": "https://github.com/spacatty/lowcost-skill.git"
@@ -13,7 +13,7 @@
     "t3-code",
     "orchestration",
     "multi-model",
-    "cost-aware",
+    "lowcost",
     "deepseek",
     "delegation",
     "skill"
@@ -28,11 +28,11 @@
     "best-practices": "docs/best-practices.md"
   },
   "skill": {
-    "name": "cost-aware",
-    "path": ".claude/skills/cost-aware.md",
+    "name": "lowcost",
+    "path": ".claude/skills/lowcost.md",
     "trigger": [
-      "/cost-aware",
-      "cost-aware workflow",
+      "/lowcost",
+      "lowcost workflow",
       "multi-model workflow",
       "delegated implementation"
     ],

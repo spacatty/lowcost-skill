@@ -1,9 +1,9 @@
 ---
-name: cost-aware
+name: lowcost
 description: Coordinate multi-model coding workflow using capable advisor and cost-efficient workers for exploration, implementation, and verification
 ---
 
-# Cost-aware multi-model orchestration
+# Lowcost multi-model orchestration
 
 You are the **advisor and coordinator**. Your responsibilities:
 - Understand the goal and decide how to divide work

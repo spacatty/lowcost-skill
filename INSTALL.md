@@ -14,7 +14,7 @@
 skill-lowcost/
 ├── .claude/
 │   └── skills/
-│       └── cost-aware.md          ✅ Main skill (7.6KB)
+│       └── lowcost.md          ✅ Main skill (7.6KB)
 ├── docs/
 │   ├── best-practices.md          ✅ Context mgmt (11KB)
 │   └── troubleshooting.md         ✅ Issue resolution (13KB)
@@ -32,7 +32,7 @@ skill-lowcost/
 ## Skill Validation
 
 ### ✅ Skill File Structure
-- **Location**: `.claude/skills/cost-aware.md`
+- **Location**: `.claude/skills/lowcost.md`
 - **Frontmatter**: Valid YAML with name and description
 - **Format**: Markdown with proper sections
 - **Size**: 7,623 bytes
@@ -82,7 +82,7 @@ skill-lowcost/
 In a Claude Opus 5.5 T3 Code session:
 
 ```
-/cost-aware
+/lowcost
 
 Add user authentication to my Express API using JWT tokens.
 ```
@@ -90,7 +90,7 @@ Add user authentication to my Express API using JWT tokens.
 ### Method 2: Natural Language
 
 ```
-I want to implement password reset functionality using a cost-aware multi-model workflow.
+I want to implement password reset functionality using a lowcost multi-model workflow.
 ```
 
 ### Method 3: Manual Delegation (Advanced)
@@ -139,7 +139,7 @@ await mcp__t3-code__delegate_task({
 
 ### Test Run
 
-1. **Invoke skill**: `/cost-aware` in T3 session
+1. **Invoke skill**: `/lowcost` in T3 session
 2. **Verify load**: Skill content appears
 3. **Simple test**: "Find all API routes in this codebase"
 4. **Check delegation**: orchestrator_capabilities called
@@ -168,11 +168,11 @@ await mcp__t3-code__delegate_task({
 **Fix:**
 ```powershell
 # Verify skill file exists
-ls .claude/skills/cost-aware.md
+ls .claude/skills/lowcost.md
 
 # If missing, copy from repo
 mkdir -p .claude/skills
-cp path/to/skill-lowcost/.claude/skills/cost-aware.md .claude/skills/
+cp path/to/skill-lowcost/.claude/skills/lowcost.md .claude/skills/
 ```
 
 ### Issue: Tools not available
@@ -249,4 +249,4 @@ After using the skill, you should observe:
 
 **Status**: ✅ Ready to use
 
-Invoke `/cost-aware` in your Claude Opus T3 Code session to get started!
+Invoke `/lowcost` in your Claude Opus T3 Code session to get started!

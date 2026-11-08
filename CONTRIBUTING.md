@@ -1,6 +1,6 @@
 # Contributing to skill-lowcost
 
-Thanks for your interest in improving cost-aware orchestration!
+Thanks for your interest in improving lowcost orchestration!
 
 ## How to Contribute
 
@@ -53,7 +53,7 @@ To add support for a new model:
 1. **Verify availability**: Call `orchestrator_capabilities({ search: "model-name" })`
 2. **Test with real tasks**: Try exploration, implementation, review
 3. **Document results**: Success rate, cost, failure modes
-4. **Update skill**: Edit `.claude/skills/cost-aware.md`:
+4. **Update skill**: Edit `.claude/skills/lowcost.md`:
    ```markdown
    ## Model selection strategy
    
@@ -79,7 +79,7 @@ Model selection is **hypothesis-based**, not benchmark-proven. Help refine it:
 **How to contribute:**
 1. Test different models on same task
 2. Document results in `examples/workflows.md`
-3. Propose updates to selection strategy in `.claude/skills/cost-aware.md`
+3. Propose updates to selection strategy in `.claude/skills/lowcost.md`
 
 **Note**: Avoid claims like "Model X is always better than Y" without evidence from multiple real tasks.
 
@@ -147,11 +147,11 @@ Better context = better results. Share patterns:
 
 2. **Test skill**:
    - Open T3 Code in this directory
-   - Invoke `/cost-aware` in a Claude Opus session
+   - Invoke `/lowcost` in a Claude Opus session
    - Test with real coding tasks
 
 3. **Iterate**:
-   - Edit `.claude/skills/cost-aware.md`
+   - Edit `.claude/skills/lowcost.md`
    - Test changes
    - Document results
 
@@ -261,4 +261,4 @@ By contributing, you agree your contributions will be licensed under the MIT Lic
 
 ---
 
-**Thank you for helping improve cost-aware orchestration!**
+**Thank you for helping improve lowcost orchestration!**

@@ -1,6 +1,6 @@
 # skill-lowcost
 
-Cost-aware multi-model orchestration framework for T3 Code.
+Lowcost multi-model orchestration framework for T3 Code.
 
 ## Purpose
 
@@ -67,7 +67,7 @@ Common issues addressed:
 In a Claude Opus 5.5 T3 Code session:
 
 ```
-/cost-aware
+/lowcost
 
 [Then describe your coding task]
 ```
@@ -75,7 +75,7 @@ In a Claude Opus 5.5 T3 Code session:
 Or naturally:
 
 ```
-I want to implement [feature] using a cost-aware multi-model workflow.
+I want to implement [feature] using a lowcost multi-model workflow.
 ```
 
 ### What happens
@@ -93,7 +93,7 @@ I want to implement [feature] using a cost-aware multi-model workflow.
 ### Example: Adding authentication
 
 ```
-User: "Add JWT authentication to our Express API using cost-aware workflow"
+User: "Add JWT authentication to our Express API using lowcost workflow"
 
 Advisor:
 1. Plans: middleware structure, token validation, route protection
@@ -115,7 +115,7 @@ Advisor:
 skill-lowcost/
 ├── .claude/
 │   └── skills/
-│       └── cost-aware.md          # Main skill definition
+│       └── lowcost.md          # Main skill definition
 ├── docs/
 │   ├── best-practices.md          # Context mgmt, Windows compat
 │   └── troubleshooting.md         # Common issues
@@ -191,7 +191,7 @@ Uses bcrypt for passwords, JWT for sessions
 
 ### Adding new models
 
-Edit `.claude/skills/cost-aware.md` and update the model selection section:
+Edit `.claude/skills/lowcost.md` and update the model selection section:
 
 ```markdown
 ## Model selection strategy

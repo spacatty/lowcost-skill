@@ -209,7 +209,7 @@ await mcp__t3-code__delegate_task({
 ```javascript
 // Don't assume
 await mcp__t3-code__delegate_task({
-  task: "Use the patterns from /cost-aware skill to implement this",
+  task: "Use the patterns from /lowcost skill to implement this",
   // ...
 })
 ```
@@ -275,5 +275,5 @@ When a delegate fails or returns unexpected results:
 ## Resources
 
 - [T3 Code delegation docs](https://t3.codes/docs) (check for updates)
-- Skill file: `.claude/skills/cost-aware.md` (delegation templates)
+- Skill file: `.claude/skills/lowcost.md` (delegation templates)
 - Examples: `examples/workflows.md` (real briefs that worked)

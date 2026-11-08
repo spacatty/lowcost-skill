@@ -1,6 +1,6 @@
 # Quick Start Guide
 
-Get started with cost-aware orchestration in 5 minutes.
+Get started with lowcost orchestration in 5 minutes.
 
 ## Prerequisites
 
@@ -32,7 +32,7 @@ await mcp__t3-code__orchestrator_capabilities()
 Type in your T3 Code session:
 
 ```
-/cost-aware
+/lowcost
 
 I want to add user authentication to my Express API.
 ```
@@ -40,7 +40,7 @@ I want to add user authentication to my Express API.
 **Or naturally:**
 
 ```
-Use cost-aware workflow to implement password reset functionality.
+Use lowcost workflow to implement password reset functionality.
 ```
 
 ## Step 3: Let the advisor coordinate
@@ -59,7 +59,7 @@ You don't need to manually call `delegate_task` unless you want fine control.
 
 **Your request:**
 ```
-/cost-aware
+/lowcost
 
 Add a GET /users/:id endpoint that returns user details.
 Require authentication.
@@ -69,7 +69,7 @@ Require authentication.
 
 ```
 [Advisor - you]
-I'll implement this using cost-aware workflow:
+I'll implement this using lowcost workflow:
 
 1. Exploration: Find existing user routes & auth patterns
 2. Implementation: Add endpoint with auth middleware
@@ -274,7 +274,7 @@ Include environment context in briefs if delegate might use shell:
 
 ## Learning resources
 
-- **Skill documentation**: `.claude/skills/cost-aware.md` - full reference
+- **Skill documentation**: `.claude/skills/lowcost.md` - full reference
 - **Best practices**: `docs/best-practices.md` - context management, Windows patterns
 - **Real examples**: `examples/workflows.md` - proven workflows with briefs
 - **Troubleshooting**: `docs/troubleshooting.md` - common issues & fixes
@@ -296,4 +296,4 @@ Include environment context in briefs if delegate might use shell:
 
 ---
 
-**Ready?** Invoke `/cost-aware` and describe your first task!
+**Ready?** Invoke `/lowcost` and describe your first task!

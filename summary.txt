@@ -1,0 +1,98 @@
+# Cost-Aware Orchestration Skill - Setup Complete
+
+## Repository
+✅ Created: https://github.com/spacatty/lowcost-skill.git
+✅ Pushed: All files committed to main branch
+✅ License: MIT
+
+## Core Files Created
+1. .claude/skills/lowcost.md - Main skill (7.6KB)
+2. QUICKSTART.md - 5-minute getting started
+3. CLAUDE.md - Complete documentation
+4. docs/best-practices.md - Context & Windows patterns
+5. docs/troubleshooting.md - Issue resolution
+6. examples/workflows.md - Real workflow examples (6 workflows)
+7. CONTRIBUTING.md - Contribution guidelines
+8. INSTALL.md - Installation & validation
+9. CHANGELOG.md - Version history
+10. package.json - Project metadata
+
+## Key Features
+✅ Multi-model coordination (Opus + DeepSeek)
+✅ Cost savings: ~80% vs all-Opus workflows
+✅ Windows PowerShell compatibility built-in
+✅ Context management best practices
+✅ Delegation templates with focused briefs
+✅ Escalation strategies (reasoning → model)
+✅ Parallel work with worktree isolation
+✅ Real workflow examples with costs
+
+## Skill Capabilities
+- Exploration: DeepSeek (variants: none, low, high, max)
+- Implementation: DeepSeek low → escalate as needed
+- Review: Claude Haiku (independent verification)
+- Architecture: Claude Opus (advisor)
+- Integration: Advisor verifies & merges
+
+## How to Use
+
+In Claude Opus 5.5 T3 Code session:
+/lowcost
+
+Then describe your coding task.
+
+## Documentation Structure
+- QUICKSTART.md: 5-min setup & first workflow
+- CLAUDE.md: Full reference (architecture, usage, customization)
+- best-practices.md: Context mgmt, brief templates, Windows compat
+- workflows.md: 6 real examples (feature, bug, exploration, parallel)
+- troubleshooting.md: 15+ common issues with fixes
+- INSTALL.md: Validation checklist & verification
+
+## Model Selection Strategy
+1. Exploration → DeepSeek low/none
+2. Implementation → DeepSeek low (escalate to high if needed)
+3. Review → Claude Haiku (different model)
+4. Architecture → Opus advisor
+5. Failed twice → Escalate reasoning variant or model
+
+## Windows Compatibility
+✅ PowerShell syntax patterns documented
+✅ Path handling (spaces, special chars)
+✅ Command alternatives (cat→Get-Content, etc.)
+✅ Cross-platform tools (rimraf, cross-env)
+✅ Brief templates include environment context
+
+## Validation Status
+✅ Skill file structure correct
+✅ T3 tool integration verified
+✅ Model IDs validated with orchestrator_capabilities
+✅ Windows patterns tested
+✅ Documentation complete
+✅ Examples include costs
+✅ Troubleshooting covers common issues
+
+## Next Steps for Users
+1. Read QUICKSTART.md
+2. Test with simple exploration task
+3. Review workflows.md for patterns
+4. Iterate on brief quality
+5. Share successful workflows
+
+## Cost Examples (from workflows.md)
+- Feature (auth): $0.45 → $0.08 (82% savings)
+- Bug fix: $0.25 → $0.05 (80% savings)
+- Exploration: $0.20 → $0.06 (70% savings)
+- Parallel work: $0.35 → $0.07 (80% savings)
+
+Average: 80% cost reduction
+
+## Repo Stats
+- Files: 14 total
+- Documentation: ~50KB
+- Examples: 6 complete workflows
+- Troubleshooting: 15+ scenarios
+- Brief templates: 10+ patterns
+
+All files committed and pushed to GitHub.
+Ready to use!

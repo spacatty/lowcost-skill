@@ -1,6 +1,6 @@
 # Troubleshooting
 
-Common issues when using the cost-aware orchestration skill.
+Common issues when using the lowcost orchestration skill.
 
 ## Delegation issues
 
@@ -427,7 +427,7 @@ Not needed:
 
 **Symptom:**
 ```
-/cost-aware
+/lowcost
 Error: Skill not found
 ```
 
@@ -436,17 +436,17 @@ Error: Skill not found
 **Fix:**
 ```powershell
 # Verify skill file exists
-ls .claude/skills/cost-aware.md
+ls .claude/skills/lowcost.md
 
 # If missing, create it
 mkdir -p .claude/skills
-# Then copy skill file to .claude/skills/cost-aware.md
+# Then copy skill file to .claude/skills/lowcost.md
 ```
 
 **Alternative:** Skill might be in user-level directory
 ```powershell
-ls ~/.claude/skills/cost-aware.md
-# Or: C:\Users\<user>\.claude\skills\cost-aware.md on Windows
+ls ~/.claude/skills/lowcost.md
+# Or: C:\Users\<user>\.claude\skills\lowcost.md on Windows
 ```
 
 ---

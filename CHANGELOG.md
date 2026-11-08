@@ -1,12 +1,12 @@
 # Changelog
 
-All notable changes to the cost-aware orchestration skill.
+All notable changes to the lowcost orchestration skill.
 
 ## [1.0.0] - 2026-11-08
 
 ### Added
-- Initial release of cost-aware multi-model orchestration skill
-- Core skill definition in `.claude/skills/cost-aware.md`
+- Initial release of lowcost multi-model orchestration skill
+- Core skill definition in `.claude/skills/lowcost.md`
 - Comprehensive documentation:
   - `CLAUDE.md` - Full project documentation
   - `QUICKSTART.md` - 5-minute getting started guide
