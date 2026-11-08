@@ -50,6 +50,8 @@ Install globally (available in all projects):
 npx skills add -g spacatty/lowcost-skill
 ```
 
+This installs the `lowcost` skill which you invoke via `/lowcost`.
+
 ### Option 2: Clone Repository
 
 ```bash

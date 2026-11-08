@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Lowcost multi-model orchestration skill for T3 Code - install with npx skills add",
   "type": "module",
-  "main": "lowcost.md",
+  "main": "SKILL.md",
   "repository": {
     "type": "git",
     "url": "https://github.com/spacatty/lowcost-skill.git"
